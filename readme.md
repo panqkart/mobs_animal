@@ -1,6 +1,6 @@
 # ANIMAL MOBS
 
-**WARNING: This is a modified version specially made for the [PanqKart](https://github.com/Panquesito7/panqkart) [Minetest](https://www.minetest.net) game.**\
+**WARNING: This is a modified version specially made for the [PanqKart](https://github.com/panqkart/panqkart) [Minetest](https://www.minetest.net) game.**\
 **The original version can be found here: <https://notabug.org/TenPlus1/mobs_animal>**
 
 ## All modified code falls under the mod's same license.
