@@ -5,11 +5,10 @@ local hairball = minetest.settings:get("mobs_hairball")
 -- Kitten by Jordach / BFD
 
 mobs:register_mob("mobs_animal:kitten", {
-stepheight = 0.6, -- luacheck: ignore
 	type = "animal",
-owner_loyal = true,
-reach = 1,
-stepheight = 1.1,
+	owner_loyal = true,
+	reach = 1,
+	stepheight = 1.1,
 	passive = true,
 	hp_min = 5,
 	hp_max = 10,
@@ -37,7 +36,6 @@ stepheight = 1.1,
 	water_damage = 0,
 	lava_damage = 0,
 	fall_damage = 0,
-	fear_height = 3,
 	animation = {
 		speed_normal = 42,
 		stand_start = 97,

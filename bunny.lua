@@ -28,6 +28,7 @@ stepheight = 0.6,
 	run_velocity = 2,
 	jump = true,
 	jump_height = 6,
+	runaway = false,
 	drops = {
 		{name = "mobs:rabbit_raw", chance = 1, min = 1, max = 1},
 		{name = "mobs:rabbit_hide", chance = 1, min = 0, max = 1},

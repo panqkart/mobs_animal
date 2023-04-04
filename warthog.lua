@@ -10,7 +10,6 @@ mobs:register_mob("mobs_animal:pumba", {
 	owner_loyal = true,
 	attack_npcs = false,
 	reach = 2,
-	damage = 0,
 	hp_min = 5,
 	hp_max = 15,
 	armor = 0,
@@ -30,6 +29,7 @@ mobs:register_mob("mobs_animal:pumba", {
 	jump = true,
 	jump_height = 6,
 	pushable = true,
+	runaway = false,
 	follow = {"default:apple", "farming:potato"},
 	view_range = 10,
 	drops = {

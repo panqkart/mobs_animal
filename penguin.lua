@@ -6,6 +6,7 @@ local S = mobs.intllib_animal
 mobs:register_mob("mobs_animal:penguin", {
 --stepheight = 0.6,
 	type = "animal",
+	owner_loyal = true,
 	passive = true,
 	reach = 1,
 	hp_min = 5,
@@ -22,7 +23,7 @@ mobs:register_mob("mobs_animal:penguin", {
 	makes_footstep_sound = true,
 	walk_velocity = 1,
 	run_velocity = 2,
-	runaway = true,
+	runaway = false,
 	jump = false,
 	stepheight = 1.1,
 	drops = {

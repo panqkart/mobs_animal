@@ -9,7 +9,6 @@ mobs:register_mob("mobs_animal:cow", {
 	passive = true,
 	owner_loyal = true,
 	reach = 2,
-	damage = 0,
 	hp_min = 5,
 	hp_max = 20,
 	armor = 0,
@@ -29,6 +28,7 @@ mobs:register_mob("mobs_animal:cow", {
 	jump = true,
 	jump_height = 6,
 	pushable = true,
+	runaway = false,
 	drops = {
 		{name = "mobs:meat_raw", chance = 1, min = 1, max = 3},
 		{name = "mobs:leather", chance = 1, min = 0, max = 2},
